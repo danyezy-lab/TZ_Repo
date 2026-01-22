@@ -46,11 +46,36 @@
         "storeName": "Ашан",
         "category": "food",
         "logoUrl": "https://cdn.example.com/partners/achan/logo.png",
-        "externalUrl": "https://electronicspro.ru/special/mobileapp",
-        "deepLink": "electronicspro://store/tverskaya",
+        "externalUrl": "https://achan.ru/special/mobileapp",
+        "deepLink": "achan://store",
         "deliveryDescr": "Ближайшая доставка",
-        "deliveryTime": "сегодня 21:00-23:00"
+        "deliveryTime": "сегодня 18:00-20:00"
+      },
+      {
+        "id": "store_003",
+        "storeName": "ВкусВилл",
+        "category": "food",
+        "logoUrl": "https://cdn.example.com/partners/vkusvill/logo.png",
+        "externalUrl": "https://vkusvill.ru/special/mobileapp",
+        "deepLink": "ckusvill://store",
+        "deliveryDescr": "Быстрая доставка",
+        "deliveryTime": "от 20 до 60 минут"
+      },
+      {
+        "id": "store_004",
+        "storeName": "Виктория",
+        "category": "food",
+        "logoUrl": "https://cdn.example.com/partners/victory/logo.png",
+        "externalUrl": "https://victory.ru/special/mobileapp",
+        "deepLink": "victory://store",
+        "deliveryDescr": "Ближайшая доставка",
+        "deliveryTime": "сегодня 17:00-19:00"
       }
-]
-    }
+    ]
+  }
 }
+Поля externalUrl и deepLink нужны для реализации перехода на внешний ресурс
+
+Задание 3. 
+https://drive.google.com/file/d/1KQR0NooLxcn3-XwYPjQMbXfeXfeFZn5r/view?usp=drive_link
+или https://github.com/danyezy-lab/TZ_Repo/blob/main/Архитернурная%20схема%20для%20ТЗ.drawio
